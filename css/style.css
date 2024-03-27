@@ -1,0 +1,97 @@
+
+body{
+    background-image: url(../images/pizza-outline-icon-on-white-background-food-background-seamless-pattern-for-print-decoration-wallpaper-vector.jpg);
+}
+
+.header {
+  
+    color: black;
+     text-align: center;
+   font-family: "Rubik Scribble", system-ui;
+   font-size: 24px;
+    font-weight: 1000;
+  font-style: oblique;
+}
+
+
+
+.main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+   
+}
+
+
+.pizza-form {
+    background-color: #c0e9e7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info,
+.delivery-details,
+.pizza-customization,
+.vegetarian,
+.non-vegetarian,
+.pizza-sauce {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    font-size: 14px; 
+    letter-spacing: 1px; 
+  
+}
+
+select {
+    appearance: none;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="email"]:hover,
+select:hover,
+textarea:hover,
+input[type="submit"]:hover {
+    border-color: #999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.output {
+    margin-top: 20px;
+  }
